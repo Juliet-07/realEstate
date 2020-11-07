@@ -9,7 +9,6 @@ import { FooterStyles } from "./footer.styled";
 import { BsArrowRight } from 'react-icons/bs';
 import Button from "../Button";
 import Divider from "../Dividers/index.component";
-import ElectoralRecallLogo from '../../assets/images/electoral-recall-logo.png'
 import Input from "../Inputs/Inputs.component";
 import {P} from '../../components/FontSize/styles'
 
