@@ -1,7 +1,7 @@
 /*
  * component: GeneralLayout
- * author: Favour George
- * Date: April 15, 2020
+ * author: Juliet Kelechi
+ * Date: September 20, 2020
  * General layout for unauthenticated views
  */
 

@@ -1,8 +1,8 @@
 /*
  * component: Header
- * author: Favour George
- * Date: April 15, 2020
- * Embed general header
+ * author: Juliet Kelechi
+ * Date: September 20, 2020
+ * General header
  */
 
 import React, { useState, useEffect, useContext } from "react";
@@ -18,8 +18,6 @@ import AppContext from "../../store/context";
 import Button from "../Button";
 import {MdMenu as MenuIcon} from "react-icons/md";
 import {FlexibleDiv} from "../Box/styles";
-import Logo from "../../assets/images/electoral-recall-logo.png";
-import Logo2 from "../../assets/images/electoral-recall-logo.png";
 import { AvatarIcon2, LogoutIcon } from "../../assets/svg";
 import { P } from "../FontSize/styles";
 import { useMutation } from "@apollo/client";
@@ -32,7 +30,12 @@ import Link from "next/link";
 
 const links = [
   {href: "/", label: "Home"},
-  {href: "/recall", label: "Recall"},
+  {href: "/buy", label: "Buy"},
+  {href: "/sell", label: "Sell"},
+  {href: "/rent", label: "Rent"},
+  
+  {href: "/sign-up", label: "Register"},
+  
 ];
 
 const Header = () => {
@@ -72,8 +75,7 @@ const Header = () => {
           <FlexibleDiv className="major" justifyContent="space-between">
             <div className="logo">
               <a onClick={() => router.push("/")}>
-                <img src={Logo} alt="logo" className="mainLogo" />
-                <img src={Logo2} alt="logo" className="whiteLogo" />
+                <P>A & E Properties</P>
               </a>
             </div>
 
