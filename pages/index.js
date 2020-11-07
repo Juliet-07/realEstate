@@ -1,8 +1,7 @@
 /*
  * page: Home
- * author: Favour George
- * Date: April 9, 2020
- * EmBED homepage
+ * author: Juliet Kelechi
+ * Date: September, 20, 2020
  */
 
 import React from 'react';

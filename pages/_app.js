@@ -19,7 +19,7 @@ class ElectoralRecall extends App {
     return (
       <>
         <Head>
-          <title>The Nigerian Petition</title>
+          <title>A & E Properties</title>
         </Head>
         <ThemeProvider>
           <Provider>

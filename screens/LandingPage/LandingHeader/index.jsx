@@ -1,7 +1,7 @@
 /*
  * component: Landing Header
- * author: Favour George
- * Date: April 14, 2020
+ * author: Juliet Kelechi
+ * Date: September, 20, 2020
  */
 
 import React from 'react';
@@ -19,20 +19,19 @@ const LandingHeader = () => {
 
       <section>
         <div className="info">
-          <h3>Electoral Recall</h3>
-          <h6>Online Voting System</h6>
-
+          <h3>A & E Properties</h3>
+          
           <p>
-            The future of democracy is in the power of choice; this power belongs to the people and must be used by the people. Together we are the people who make the ultimate decision.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan vel odio sit amet lacinia. Integer placerat, diam ut sagittis tincidunt, turpis justo viverra metus, vel finibus mi tortor eu purus.
           </p>
         </div>
 
-        <Button
+        {/* <Button
           type={"button"}
           click={() => router.push('/sign-up')}
           icon={<BsArrowRight />}
           text={"Get Started"}
-        />
+        /> */}
       </section>
     </LandingHeaderBox>
   );
