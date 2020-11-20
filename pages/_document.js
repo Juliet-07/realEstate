@@ -1,7 +1,4 @@
 /*
- * page: _document
- * author: Favour George
- * Date: April 9, 2020
  * Override default Next.js document behaviour
  */
 
@@ -9,7 +6,7 @@ import React from "react";
 import { ServerStyleSheet } from "styled-components";
 import Document, { Head, Main, NextScript } from "next/document";
 
-export default class ElectoralRecall extends Document {
+export default class AEP extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
     const originalRenderPage = ctx.renderPage;
@@ -40,9 +37,6 @@ export default class ElectoralRecall extends Document {
     return (
       <html lang="en">
         <Head>
-          {/* <title>EmBED LMS</title> */}
-          {/* Step 5: Output the styles in the head  */}
-          {/*{this.props.styleTags}*/}
           <meta
             name={"viewport"}
             content={"initial-scale=1.0, width=device-width"}

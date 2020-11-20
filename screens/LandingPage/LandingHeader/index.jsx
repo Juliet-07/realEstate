@@ -6,8 +6,6 @@
 
 import React from 'react';
 import { LandingHeaderBox } from "./landingHeader.styles";
-import Button from "../../../components/Button";
-import { BsArrowRight } from 'react-icons/bs';
 import { useRouter } from "next/router";
 
 const LandingHeader = () => {
@@ -16,16 +14,14 @@ const LandingHeader = () => {
   return (
     <LandingHeaderBox>
       <div className="overlay" />
-
       <section>
         <div className="info">
           <h3>A & E Properties</h3>
-          
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan vel odio sit amet lacinia. Integer placerat, diam ut sagittis tincidunt, turpis justo viverra metus, vel finibus mi tortor eu purus.
           </p>
         </div>
-
+        
         {/* <Button
           type={"button"}
           click={() => router.push('/sign-up')}

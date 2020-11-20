@@ -1,12 +1,25 @@
-import React from 'react'
-import GeneralLayout from '../../components/Layout/GeneralLayout'
-
+import React from "react";
+import GeneralLayout from "../../components/Layout/GeneralLayout";
+import { Banner } from "./styled";
 const Buy = () => {
   return (
     <GeneralLayout>
-     <h1>BUY</h1>
+      <Banner>
+        <div className="overlay">
+          <section>
+            <div className="info">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                accumsan vel odio sit amet lacinia. Integer placerat, diam ut
+                sagittis tincidunt, turpis justo viverra metus, vel finibus mi
+                tortor eu purus.
+              </p>
+            </div>
+          </section>
+        </div>
+      </Banner>
     </GeneralLayout>
-  )
-}
+  );
+};
 
-export default Buy
+export default Buy;

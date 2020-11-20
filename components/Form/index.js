@@ -1,10 +1,4 @@
-// /*
-//  * component: CustomForm
-//  * author: George Favour
-//  * Date: April 16th, 2020
-//  * EmBED CustomForm component
-//  */
-//
+
 // import React from "react";
 // import {CustomFormWrapper} from "./styles";
 // import {ErrorMessage, Form, Formik} from "formik";

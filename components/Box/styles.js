@@ -1,8 +1,5 @@
 /*
  * component: FlexibleDiv
- * author: Eze Bernardine May
- * Date: April 16th, 2020
- * EmBED FlexibleDiv component
  */
 
 import propTypes from 'prop-types';
