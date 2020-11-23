@@ -9,13 +9,13 @@ const SignUp = () => {
 		{
 			id: 1,
 			icon: <CurrentIcon height="12px" width="12px" color="#6c006c" />,
-			title: "Nigerians (Home/Abroad)",
+			title: "Buyer",
 			content: <SignUpForm type={1} />,
 		},
 		{
 			id: 2,
 			icon: <ChatIcon height="12px" width="12px" color="#6c006c" />,
-			title: "Friends of Nigeria",
+			title: "Seller",
 			content: <SignUpForm type={2} user={"diaspora"} />,
 		},
 	];

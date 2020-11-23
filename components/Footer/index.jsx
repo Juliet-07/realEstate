@@ -6,11 +6,8 @@
 
 import React from "react";
 import { FooterStyles } from "./footer.styled";
-import { BsArrowRight } from 'react-icons/bs';
 import Button from "../Button";
 import Divider from "../Dividers/index.component";
-import Input from "../Inputs/Inputs.component";
-import {P} from '../../components/FontSize/styles'
 
 const Footer = () => {
   return (
@@ -58,25 +55,20 @@ const Footer = () => {
             <Button
               type={"submit"}
               variant={"secondary"}
-              click={() => {
-              }}
+              click={() => {}}
               text={"Subscribe"}
             />
           </aside>
         </div>
       </section>
 
-      <Divider
-        width={"80%"}
-      />
+      <Divider width={"80%"} />
 
       <section className="bottom-banner">
         <aside>
           <ul>
             <a href="/privacy-policy">
-              <li>
-                Privacy Policy
-              </li>
+              <li>Privacy Policy</li>
             </a>
             <a href="/terms-and-conditions">
               <li>Terms & Conditions</li>
@@ -87,7 +79,7 @@ const Footer = () => {
           </ul>
         </aside>
         <aside>
-          &copy; {new Date().getFullYear()} A & E Properties <strong>(Juliet)</strong>
+          &copy; {new Date().getFullYear()} A & E Properties{" "}
         </aside>
       </section>
     </FooterStyles>
