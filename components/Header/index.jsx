@@ -26,7 +26,7 @@ const links = [
   {href: "/sell", label: "Sell"},
   {href: "/rent", label: "Rent"},
   {href: "/sign-up", label: "Register"},
-  
+  {href: "/about", label:"About"}
 ];
 
 const Header = () => {

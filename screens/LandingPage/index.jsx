@@ -12,7 +12,7 @@ const Landing = () => {
   return (
     <div>
       <LandingHeader />
-      <Slide />
+      <Slide/>
     </div>
   );
 };
