@@ -1,30 +1,24 @@
 import React from "react";
-import {LoaderBox, PageLoaderBox} from "./loaders.styled";
-import propTypes from 'prop-types';
-
+import { LoaderBox, PageLoaderBox } from "./loaders.styled";
+import propTypes from "prop-types";
 
 const Loader = (props) => {
   return (
-    <LoaderBox
-      {...props}
-    >
+    <LoaderBox {...props}>
       <div className={"spinner"} />
     </LoaderBox>
   );
 };
 
 export const PageLoader = (props) => {
-
   return (
-    <PageLoaderBox
-      {...props}
-    >
+    <PageLoaderBox {...props}>
       <div className={"ripple"}>
         <div />
         <div />
       </div>
     </PageLoaderBox>
-  )
+  );
 };
 
 Loader.propTypes = {
@@ -36,7 +30,4 @@ PageLoader.propTypes = {
   color: propTypes.string,
 };
 
-
 export default Loader;
-
-

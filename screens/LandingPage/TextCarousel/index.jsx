@@ -1,8 +1,5 @@
 /*
  * section: TextCarousel
- * author: Bernardine May Eze
- * Date: April 9, 2020
- * EmBED TextCarousel
  */
 
 import React from "react";
@@ -15,32 +12,24 @@ const TextCarousel = () => {
   const cardData = [
     {
       number: "01",
-      year: "2020",
       quote:
-        "  I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear.",
-      author: "Nelson Mandela"
+        "  Our Mission is to be the most successful real estate firm in Nigeria and it's neighbouring countries",
     },
     {
       number: "02",
-      year: "2020",
       quote:
-        " The seeds of success in every nation on Earth are best planted in women and children.",
-      author: "Joyce Banda"
+        " Professional state of the art techniques specializing in the marketing, rentals and selling of new/resale luxury homes, undeveloped land and commercial and investment opportunities.",
     },
     {
       number: "03",
-      year: "2020",
       quote:
-        " Education is for improving the lives of others and for leaving your community and world better than you found it",
-      author: "Marian Wright Edelman"
+        " To have a team of experienced professionals in key positions around the state that will handle realistic values for it's own investments affiliates as well as it's joint venture partners",
     },
     {
       number: "04",
-      year: "2020",
       quote:
-        "  I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear.",
-      author: "Nelson Mandela"
-    }
+        "  Finally, to continually explore new ideas and technology. To make the selling and buying of real estate faster, less costly and easier",
+    },
   ];
   return (
     <>
@@ -49,14 +38,15 @@ const TextCarousel = () => {
         scrollOuterBg="#003333"
         scrollArrowBg="#ffffff47"
         scrollArrowCol="#F4F5F7"
-        // scrollCardHeight='100%'
-        scrollCardGaps="0">
+        scrollCardGaps="0"
+      >
         {cardData.map((item, i) => (
           <TextCarouselWrap key={generateID(15)}>
             <FlexibleDiv
               className="container"
               alignItems="stretch"
-              flexWrap="no-wrap">
+              flexWrap="no-wrap"
+            >
               <div className="number">
                 <FlexibleDiv>
                   <h1>{item.number}</h1>
@@ -67,7 +57,8 @@ const TextCarousel = () => {
               <FlexibleDiv
                 className="content"
                 flexDir="column"
-                justifyContent="space-between">
+                justifyContent="space-between"
+              >
                 <p>{item.quote}</p>
                 <h3 className="author">{item.author}</h3>
               </FlexibleDiv>

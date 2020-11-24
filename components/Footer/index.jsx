@@ -1,29 +1,26 @@
 /*
  * component: Footer
- * author: Favour George
- * Date: April 13, 2020
+ * author: Juliet Kelechi
+ * Date: September 20, 2020
  */
 
 import React from "react";
 import { FooterStyles } from "./footer.styled";
-import { BsArrowRight } from 'react-icons/bs';
 import Button from "../Button";
 import Divider from "../Dividers/index.component";
-import ElectoralRecallLogo from '../../assets/images/electoral-recall-logo.png'
-import Input from "../Inputs/Inputs.component";
 
 const Footer = () => {
   return (
     <FooterStyles>
       <section className="middle-layer">
-        <div className="col-4 logo-holder">
-          <img src={ElectoralRecallLogo} alt="Electoral recall" />
+        <div className="col-4 ">
+          <h6 className="col-4">A & E Properties</h6>
         </div>
         <div className="col-4">
           <h6>Contact Information</h6>
           <ul>
             <a href="">
-              <li>Email: info@thenigerianpetition.com</li>
+              <li>Email: shadowMask@yahoomail.com</li>
             </a>
             <a href="">
               <li>Tel: (234) 000 000 0000</li>
@@ -58,25 +55,20 @@ const Footer = () => {
             <Button
               type={"submit"}
               variant={"secondary"}
-              click={() => {
-              }}
+              click={() => {}}
               text={"Subscribe"}
             />
           </aside>
         </div>
       </section>
 
-      <Divider
-        width={"80%"}
-      />
+      <Divider width={"80%"} />
 
       <section className="bottom-banner">
         <aside>
           <ul>
             <a href="/privacy-policy">
-              <li>
-                Privacy Policy
-              </li>
+              <li>Privacy Policy</li>
             </a>
             <a href="/terms-and-conditions">
               <li>Terms & Conditions</li>
@@ -87,7 +79,7 @@ const Footer = () => {
           </ul>
         </aside>
         <aside>
-          &copy; {new Date().getFullYear()} TheNigerianPetition | Powered by <strong>Concerned Nigerian Youths</strong>
+          &copy; {new Date().getFullYear()} A & E Properties{" "}
         </aside>
       </section>
     </FooterStyles>

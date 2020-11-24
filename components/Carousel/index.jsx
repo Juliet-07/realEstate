@@ -1,8 +1,5 @@
 /*
  * component: CustomScrollingCards
- * author: George Favour 
- * Date: April 16th, 2020
- * EmBED CustomScrollingCards component
  */
 
 import React, { useState, useEffect } from "react";

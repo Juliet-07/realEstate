@@ -1,7 +1,4 @@
 /*
- * page: _app
- * author: Favour George
- * Date: April 9, 2020
  * Override default Next.js app behaviour
  */
 
@@ -12,14 +9,14 @@ import ThemeProvider from "../config/themes/ThemeProvider";
 import {withApollo} from "../lib/apollo/withApollo";
 import Provider from "../store/provider";
 
-class ElectoralRecall extends App {
+class AEP extends App {
   render() {
     const {Component, pageProps} = this.props;
 
     return (
       <>
         <Head>
-          <title>The Nigerian Petition</title>
+          <title>A & E Properties</title>
         </Head>
         <ThemeProvider>
           <Provider>
@@ -31,4 +28,4 @@ class ElectoralRecall extends App {
   }
 }
 
-export default withApollo(ElectoralRecall);
+export default withApollo(AEP);
