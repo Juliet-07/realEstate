@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import house2 from "../../assets/images/house2.jpg";
+import house2 from "../assets/images/house2.jpg";
 export const Banner = styled("div")`
   background: url(${house2}) center no-repeat;
   background-size: cover;
@@ -32,8 +32,8 @@ export const Banner = styled("div")`
     .info {
       width: 60%;
       position:absolute;
-      top:130px;
-      left:150px
+      top:150px;
+      left:70px
     }
     p {
       color: ${({ color, theme }) => (color ? color : theme.palette.grey[300])};

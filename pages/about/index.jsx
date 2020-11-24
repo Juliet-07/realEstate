@@ -1,7 +1,7 @@
 import React from "react";
 import GeneralLayout from "../../components/Layout/GeneralLayout";
 import { P } from "../../components/FontSize/styles";
-import { Banner } from "./styled";
+import { Banner } from "../../styles/about.styles";
 import TextCarousel from "../../screens/LandingPage/TextCarousel";
 const About = () => {
   return (

@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import house2 from "../../assets/images/house2.jpg";
+import house3 from "../assets/images/house3.jpg";
 export const Banner = styled("div")`
-  background: url(${house2}) center no-repeat;
+  background: url(${house3}) center no-repeat;
   background-size: cover;
   height: 300px;
   display: flex;

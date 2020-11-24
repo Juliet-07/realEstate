@@ -1,6 +1,6 @@
 import React from "react";
 import GeneralLayout from "../../components/Layout/GeneralLayout";
-import { Banner } from "./styled";
+import { Banner } from "../../styles/sell.styles";
 
 const Sell = () => {
   return (

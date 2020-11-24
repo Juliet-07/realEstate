@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import house5 from "../../assets/images/house5.jpg";
+import house5 from "../assets/images/house5.jpg";
 export const Banner = styled("div")`
   background: url(${house5}) center no-repeat;
   background-size: cover;
