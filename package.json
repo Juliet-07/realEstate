@@ -21,7 +21,7 @@
     "next-cookies": "^2.0.3",
     "next-images": "^1.4.0",
     "next-with-apollo": "^5.0.0",
-    "prop-types": "latest",
+    "prop-types": "^15.8.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-icons": "^3.11.0",
